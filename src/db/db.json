@@ -1,0 +1,69 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "gender": "male",
+      "healthGoals": [
+        "weight loss",
+        "increase muscle strength"
+      ]
+    },
+    {
+      "name": "temp",
+      "id": 2
+    }
+  ],
+  "mealPlans": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2024-02-26",
+      "meals": [
+        {
+          "mealType": "Breakfast",
+          "description": "Oatmeal with almonds and berries"
+        },
+        {
+          "mealType": "Lunch",
+          "description": "Grilled chicken salad with avocado dressing"
+        },
+        {
+          "mealType": "Dinner",
+          "description": "Salmon with quinoa and asparagus"
+        }
+      ],
+      "totalCalories": 1500
+    }
+  ],
+  "workouts": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2024-02-26",
+      "exercises": [
+        {
+          "exerciseName": "Running",
+          "duration": "30 minutes",
+          "intensity": "Moderate"
+        },
+        {
+          "exerciseName": "Weight Lifting",
+          "duration": "45 minutes",
+          "intensity": "High"
+        }
+      ]
+    }
+  ],
+  "meditation": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2024-02-26",
+      "sessionLength": "20 minutes",
+      "type": "Guided Meditation",
+      "focus": "Mindfulness"
+    }
+  ]
+}
